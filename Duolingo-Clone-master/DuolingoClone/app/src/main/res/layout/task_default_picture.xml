@@ -66,16 +66,13 @@
             android:id="@+id/question"
             android:layout_width="wrap_content"
             android:layout_height="97dp"
-            android:layout_alignStart="@+id/null"
-            android:layout_alignTop="@+id/null"
-            android:layout_alignEnd="@+id/null"
             android:layout_gravity="center"
             android:layout_marginStart="8dp"
             android:text="Ella come manzanas"
-            android:textColor="#303030"
+            android:textColobutton2r="#303030"
             android:textSize="18sp" />
     </LinearLayout>
-
+    <!-- Top pictures layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="189dp"
@@ -83,25 +80,23 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="293dp"
         android:orientation="horizontal">
-
+        <!-- Top Left image -->
         <ImageView
-            android:id="@+id/imageV"
+            android:id="@+id/Im1"
             android:layout_width="158dp"
             android:layout_height="181dp"
-            android:layout_alignTop="@id/imageView10"
             android:layout_weight="1"
             app:srcCompat="@drawable/hello" />
-
+        <!-- Top right image -->
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/im2"
             android:layout_width="158dp"
             android:layout_height="181dp"
-            android:layout_alignTop="@id/imageV"
             android:layout_weight="1"
             app:srcCompat="@drawable/hello" />
 
     </LinearLayout>
-
+    <!-- Top buttons layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="82dp"
@@ -110,27 +105,23 @@
         android:layout_marginTop="419dp"
         android:layout_weight="1"
         android:orientation="horizontal">
-
+        <!-- Top right button -->
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+        <!-- Top left button -->
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/null"
-            android:layout_alignBottom="@+id/null"
-            android:layout_weight="1"
-            android:text="Button" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/null"
-            android:layout_alignBottom="@+id/null"
             android:layout_weight="1"
             android:text="Button" />
 
     </LinearLayout>
-
+    <!-- Bottom images layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="234dp"
@@ -139,25 +130,23 @@
         android:layout_marginTop="489dp"
         android:layout_weight="1"
         android:orientation="horizontal">
-
+        <!-- Bottom left image -->
         <ImageView
-            android:id="@+id/imageV"
+            android:id="@+id/im3"
             android:layout_width="158dp"
             android:layout_height="181dp"
-            android:layout_alignTop="@id/imageV"
             android:layout_weight="1"
             app:srcCompat="@drawable/hello" />
-
+        <!-- Bottom right image -->
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/im4"
             android:layout_width="158dp"
             android:layout_height="181dp"
-            android:layout_alignTop="@id/imageV"
             android:layout_weight="1"
             app:srcCompat="@drawable/hello" />
 
     </LinearLayout>
-
+    <!-- Bottom buttons layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="91dp"
@@ -166,22 +155,18 @@
         android:layout_marginTop="632dp"
         android:layout_weight="1"
         android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/null"
-            android:layout_alignBottom="@+id/null"
-            android:layout_weight="1"
-            android:text="Button" />
-
+        <!-- Bottom left button -->
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/null"
-            android:layout_alignBottom="@+id/null"
+            android:layout_weight="1"
+            android:text="Button" />
+        <!-- Bottom right button -->
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Button" />
 
